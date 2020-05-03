@@ -1,0 +1,242 @@
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+	margin:0;
+	padding:0;
+	border-width:0;
+}
+
+@font-face {
+    font-family: "LiberationSerif";
+    src: url('typo/LiberationSerif.ttf');
+}
+
+@font-face {
+    font-family: "LiberationSans";
+    src: url('typo/LiberationSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: "LiberationSans-Italic";
+    src: url('typo/LiberationSans-Italic.ttf');
+}
+
+@font-face {
+    font-family: "LiberationSans-Bold";
+    src: url('typo/LiberationSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: "LiberationSerif-Italic";
+    src: url('typo/LiberationSerif-Italic.ttf');
+}
+
+body {
+	-epub-hyphens:auto;
+}
+
+#_idContainer002{
+	
+	break-before: column;
+    -webkit-column-break-before: always;
+	text-align: justify;
+	-webkit-column-count:2; /* Opera, Safari, Google Chrome */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2; /* Internet Explorer */
+}
+
+#_idContainer003{
+	break-before: column;
+    -webkit-column-break-before: always;
+	text-align: justify;
+	-webkit-column-count:3; /* Opera, Safari, Google Chrome */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3; /* Internet Explorer */
+}
+
+div.Bloc-de-texte-standard {
+	border-style:solid;
+	
+}
+p.Paragraphe-standard {
+	color:#000000;
+	font-family:"Liberation Sans", sans-serif;
+	font-size:12px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.Style-de-paragraphe-1 {
+	color:#0e20ee;
+	font-family:"Liberation Sans", sans-serif;
+	font-size:9px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+span.bas-de-page-images {
+	color:#742089;
+	font-family:"Liberation Sans", sans-serif;
+	font-size:9px;
+	font-style:normal;
+	font-weight:normal;
+	vertical-align:super;
+}
+span.citations {
+	color:#ff3712;
+	font-family:"Liberation Sans", sans-serif;
+	font-size:9px;
+	font-style:normal;
+	font-weight:normal;
+}
+span.dates {
+	color:#2c2c2b;
+	font-family:"Liberation Sans", sans-serif;
+	font-size:9px;
+	font-style:normal;
+	font-weight:normal;
+}
+span.def {
+	color:#5e9a92;
+	font-family:"Liberation Sans", sans-serif;
+	font-size:9px;
+	font-style:normal;
+	font-weight:normal;
+}
+span.d-finition {
+	color:#5e9a92;
+	font-family:"Liberation Sans", sans-serif;
+	font-size:9px;
+	font-style:normal;
+	font-weight:normal;
+}
+span.fin-de-texte {
+	color:#5e9a92;
+	font-family:"Liberation Sans", sans-serif;
+	font-size:9px;
+	font-style:normal;
+	font-weight:normal;
+	vertical-align:super;
+}
+span.italic- {
+	color:#0114ed;
+	font-family:"Liberation Sans", sans-serif;
+	font-style:italic;
+	font-weight:normal;
+}
+span.num-ro-page {
+	color:#ad8128;
+	font-family:"Liberation Sans", sans-serif;
+	font-size:9px;
+	font-style:normal;
+	font-weight:normal;
+	vertical-align:super;
+}
+span.question {
+	color:#1c26e9;
+	font-family:"Liberation Sans", sans-serif;
+	font-size:9px;
+	font-style:normal;
+	font-weight:bold;
+}
+span.ref {
+	color:#742089;
+	font-family:"Liberation Sans", sans-serif;
+	font-size:9px;
+	font-style:normal;
+	font-weight:normal;
+}
+span.texte {
+	color:#0114ed;
+	font-family:"Liberation Sans", sans-serif;
+	font-style:normal;
+	font-weight:normal;
+}
+span.CharOverride-1 {
+	font-size:11px;
+}
+span.CharOverride-2 {
+	font-size:11px;
+	font-style:normal;
+	font-weight:bold;
+}
+span.CharOverride-3 {
+	font-size:6px;
+}
+span.CharOverride-4 {
+	font-size:11px;
+	font-style:italic;
+	font-weight:normal;
+}
+span.CharOverride-5 {
+	color:#57a468;
+	font-size:11px;
+}
+span.CharOverride-6 {
+	font-size:11px;
+	text-decoration:underline;
+}
+span.CharOverride-7 {
+	text-decoration:underline;
+}
+span.CharOverride-8 {
+	font-style:italic;
+	font-weight:normal;
+}
+span.CharOverride-9 {
+	color:#000000;
+}
+span.CharOverride-10 {
+	color:#000000;
+	font-style:italic;
+	font-weight:normal;
+}
+span.CharOverride-11 {
+	color:#0e20ee;
+	font-size:9px;
+	text-decoration:underline;
+}
+span.CharOverride-12 {
+	color:#0e20ee;
+	font-size:9px;
+}
+span.CharOverride-13 {
+	color:#2c2c2b;
+	font-size:9px;
+}
+span.CharOverride-14 {
+	font-size:9px;
+	text-decoration:underline;
+}
+span.CharOverride-15 {
+	font-size:9px;
+}
+span.CharOverride-16 {
+	font-size:9px;
+	font-style:italic;
+	font-weight:normal;
+}

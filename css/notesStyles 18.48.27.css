@@ -1,0 +1,148 @@
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+	margin:0;
+	padding:0;
+	border-width:0;
+}
+
+@font-face {
+    font-family: "LiberationSerif";
+    src: url('typo/LiberationSerif.ttf');
+}
+
+@font-face {
+    font-family: "LiberationSans";
+    src: url('typo/LiberationSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: "LiberationSans-Italic";
+    src: url('typo/LiberationSans-Italic.ttf');
+}
+
+@font-face {
+    font-family: "LiberationSans-Bold";
+    src: url('typo/LiberationSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: "LiberationSerif-Italic";
+    src: url('typo/LiberationSerif-Italic.ttf');
+}
+
+
+body {
+	-epub-hyphens:auto;
+}
+div.Bloc-de-texte-standard {
+	border-style:solid;
+	
+		break-before: column;
+    -webkit-column-break-before: always;
+	
+	text-align: justify;
+	-webkit-column-count:2; /* Opera, Safari, Google Chrome */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2; /* Internet Explorer */
+	
+}
+p.Paragraphe-standardA {
+	color:#000000;
+	font-family:"Minion Pro", serif;
+	font-size:12px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.Style-de-paragraphe-1 {
+	color:#000000;
+	font-family:Georgia, serif;
+	font-size:18px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:1.2;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+span.bas-de-page-images {
+	color:#662686;
+	font-family:"Liberation Sans", sans-serif;
+	font-size:12px;
+	font-style:normal;
+	font-weight:normal;
+	vertical-align:super;
+}
+span.italic- {
+	color:#0114ed;
+	font-family:"Liberation Sans", sans-serif;
+	font-size:7px;
+	font-style:italic;
+	font-weight:normal;
+}
+span.num-ro-pageA {
+	color:#ad8128;
+	font-family:"Liberation Sans", sans-serif;
+	font-size:12px;
+	font-style:normal;
+	font-weight:normal;
+	vertical-align:super;
+}
+span.texteA {
+	color:#0114ed;
+	font-family:"Liberation Sans", sans-serif;
+	font-size:7px;
+	font-style:normal;
+	font-weight:normal;
+}
+span.CharOverride-1A {
+	color:#e21c51;
+}
+span.CharOverride-2 {
+	color:#e21c51;
+	font-style:italic;
+	font-weight:normal;
+}
+span.CharOverride-3 {
+	color:#000000;
+}
+span.CharOverride-4 {
+	font-size:7px;
+}
+span.CharOverride-5 {
+	font-size:7px;
+	font-style:italic;
+	font-weight:normal;
+}
+span.CharOverride-6 {
+	color:#000000;
+	font-size:7px;
+}
+span.CharOverride-7 {
+	color:#000000;
+	font-size:7px;
+	font-style:italic;
+	font-weight:normal;
+}

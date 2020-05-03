@@ -1,0 +1,161 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: "LiberationSerif";
+    src: url('typo/LiberationSerif.ttf');
+}
+
+@font-face {
+    font-family: "LiberationSans";
+    src: url('typo/LiberationSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: "LiberationSans-Italic";
+    src: url('typo/LiberationSans-Italic.ttf');
+}
+
+@font-face {
+    font-family: "LiberationSans-Bold";
+    src: url('typo/LiberationSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: "LiberationSerif-Italic";
+    src: url('typo/LiberationSerif-Italic.ttf');
+}
+
+body{
+	position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+  	display: flex;
+	height: 100%;
+	width: 100%;
+	
+	
+}
+
+.children{
+	border: 2px solid white;
+	padding: 1em;
+	margin: 5px;
+}
+
+.flexA{
+	flex: 1;
+	display: flex;
+	flex-direction:column;
+	
+}
+
+.flexB{
+	flex: 2;
+	display: flex;
+	flex-direction:column;
+}
+
+
+
+
+
+.flexBa{
+	flex: 4;
+	display: flex;
+	flex-direction:row;	
+}
+
+.flexBb{
+	flex: 2;
+	display:flex;
+	overflow-y: hidden
+}
+
+
+
+
+
+.flexBaA{
+	flex: 1;
+	display: flex;
+	flex-direction:column;
+}
+
+
+
+.flexBaB{
+	flex: 1;
+	display:flex;
+	flex-direction:column;
+	flex-shrink: 0;
+}
+
+
+
+.intro{
+	flex: 1;
+	overflow-y:scroll;
+
+	
+}
+
+
+.memoire {
+	flex: 6;
+	overflow-y:scroll;
+}
+
+
+
+.definition { 
+	flex: 3;
+	overflow-y:scroll;
+}
+
+.titre{
+	flex: 1;
+	border: 2px solid #ff3712;
+	font-size: 25px;
+	color:#ff3712;
+	font-family:"LiberationSerif-Italic";	
+}
+
+.notes {
+	display: block;
+	overflow-y:scroll;
+	flex: 2;
+}
+
+
+.frise{
+	overflow: scroll;
+	height: 120%;
+	max-width: 1000px;
+	overflow-y: hidden;
+	flex-shrink: 0;
+}
+
+.images{
+	overflow: scroll;
+	width: 100%;
+	max-height: 400px;
+	overflow-x: hidden;
+	flex-shrink: 0;
+}
+
+
+.corpus{
+	width: 100%;
+}
+
+
+.chrono{
+	height: 100%;
+}
+
+
+
